@@ -1,4 +1,5 @@
-**Enhanced object detection of Enterobius vermicularis eggs using cumulative transfer learning algorithm**
+Title - **Enhanced object detection of Enterobius vermicularis eggs using cumulative transfer learning algorithm**
+
 The methodology of this study can be delineated into several sequential steps, each contributing to the overall framework for the detection and classification of *Enterobius vermicularis* eggs. Below is a detailed, step-by-step description of the proposed method:
 
 1. **Data Acquisition and Preprocessing**  
