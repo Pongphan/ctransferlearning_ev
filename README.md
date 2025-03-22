@@ -9,8 +9,10 @@ The methodology of this study can be delineated into several sequential steps, e
 **3.Dataset Information**
 
 *01_training_dataset* - the training dataset, images were meticulously cropped to a uniform dimension of 370 × 370 pixels, a process designed to preserve the salient morphological features of the parasitic eggs. A balanced dataset was established, consisting of 1000 images per class for a total of 2000 images. Class 0 comprises artifacts—objects or extraneous elements that may be erroneously interpreted as eggs yet lack diagnostic relevance. In contrast, Class 1 consists of E. vermicularis eggs, which are essential for the accurate diagnosis of enterobiasis.
+
 *02_testing_dataset* - the images included in the testing dataset were meticulously cropped to dimensions of 370 × 370 pixels to ensure the preservation of critical morphological features of the parasitic eggs. The dataset comprised a total of 100 images, with 50 images allocated per class. Class 0 represented artifacts—non-parasitic structures or objects that may resemble eggs but are diagnostically irrelevant. Class 1 consisted of *Enterobius vermicularis* eggs, which are the true parasitic elements essential for the accurate identification and diagnosis of enterobiasis.
-*03_obj_det_original* - 
+
+*03_obj_det_original* - microscopic images are incorporated for object detection, as they capture high-resolution details critical for identifying and segmenting cellular structures.
 
 **4.Code Information**
 
@@ -81,10 +83,10 @@ keras.callbacks
 
 keras.utils
 
-**Citation**
+**7.Citation**
 
 The comprehensive training dataset employed in this study is publicly accessible via Figshare (https://doi.org/10.6084/m9.figshare.26266028.v2, accessed 22 August 2024).
 
-**License**
+**8.License**
 
 This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
