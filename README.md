@@ -1,14 +1,16 @@
-**Title**
+**1.Title**
 
 Enhanced object detection of Enterobius vermicularis eggs using cumulative transfer learning algorithm
 
-**Description**
+**2.Project Description**
 
 The methodology of this study can be delineated into several sequential steps, each contributing to the overall framework for the detection and classification of *Enterobius vermicularis* eggs. Code Information is a detailed, step-by-step description of the proposed method.
 
-**Dataset Information**
+**3.Dataset Information**
 
-**Code Information**
+**4.Code Information**
+
+**5.Usage Instructions**
 
 1. Data Acquisition and Preprocessing
    The initial phase involves the importation of *Enterobius vermicularis* egg images, which constitute the primary dataset for analysis. Given the inherent challenges associated with medical imaging datasets—such as limited sample size and variability—robust preprocessing is essential. The raw images undergo normalization and resizing to ensure consistency across the dataset, thereby facilitating subsequent processing stages.
@@ -48,3 +50,18 @@ The methodology of this study can be delineated into several sequential steps, e
    These metrics facilitate a detailed quantitative analysis, allowing for an objective assessment of the efficacy of both the individual models and the cumulative transfer learning approach.
 
 In summary, the proposed method integrates data augmentation, multiple deep learning architectures, and an innovative cumulative transfer learning algorithm to advance the state of the art in the detection and classification of *Enterobius vermicularis* eggs. The method is further validated through robust performance metrics, ensuring its practical utility in both image classification and object detection tasks.
+
+**6.Python Library Requirements**
+
+os
+cv2
+numpy
+matplotlib.pyplot
+datetime
+sklearn.model_selection
+sklearn.metrics
+keras.models
+keras.layers
+keras.applications
+keras.callbacks
+keras.utils
