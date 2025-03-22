@@ -8,6 +8,10 @@ The methodology of this study can be delineated into several sequential steps, e
 
 **3.Dataset Information**
 
+*01_training_dataset* - the training dataset, images were meticulously cropped to a uniform dimension of 370 × 370 pixels, a process designed to preserve the salient morphological features of the parasitic eggs. A balanced dataset was established, consisting of 1000 images per class for a total of 2000 images. Class 0 comprises artifacts—objects or extraneous elements that may be erroneously interpreted as eggs yet lack diagnostic relevance. In contrast, Class 1 consists of E. vermicularis eggs, which are essential for the accurate diagnosis of enterobiasis.
+*02_testing_dataset* - the images included in the testing dataset were meticulously cropped to dimensions of 370 × 370 pixels to ensure the preservation of critical morphological features of the parasitic eggs. The dataset comprised a total of 100 images, with 50 images allocated per class. Class 0 represented artifacts—non-parasitic structures or objects that may resemble eggs but are diagnostically irrelevant. Class 1 consisted of *Enterobius vermicularis* eggs, which are the true parasitic elements essential for the accurate identification and diagnosis of enterobiasis.
+*03_obj_det_original* - 
+
 **4.Code Information**
 
 **5.Usage Instructions**
