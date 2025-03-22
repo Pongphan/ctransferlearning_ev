@@ -8,9 +8,9 @@ The methodology of this study can be delineated into several sequential steps, e
 
 **3.Dataset Information**
 
-*01_training_dataset* - the training dataset, images were meticulously cropped to a uniform dimension of 370 × 370 pixels, a process designed to preserve the salient morphological features of the parasitic eggs. A balanced dataset was established, consisting of 1000 images per class for a total of 2000 images. Class 0 comprises artifacts—objects or extraneous elements that may be erroneously interpreted as eggs yet lack diagnostic relevance. In contrast, Class 1 consists of E. vermicularis eggs, which are essential for the accurate diagnosis of enterobiasis.
+*01_training_dataset* - the training dataset, images were meticulously cropped to a uniform dimension of 370 × 370 pixels, a process designed to preserve the salient morphological features of the parasitic eggs. A balanced dataset was established, consisting of 1000 images per class for a total of 2000 images. Class 0 comprises artifacts—objects or extraneous elements that may be erroneously interpreted as eggs yet lack diagnostic relevance. In contrast, Class 1 consists of *E. vermicularis* eggs, which are essential for the accurate diagnosis of enterobiasis.
 
-*02_testing_dataset* - the images included in the testing dataset were meticulously cropped to dimensions of 370 × 370 pixels to ensure the preservation of critical morphological features of the parasitic eggs. The dataset comprised a total of 100 images, with 50 images allocated per class. Class 0 represented artifacts—non-parasitic structures or objects that may resemble eggs but are diagnostically irrelevant. Class 1 consisted of *Enterobius vermicularis* eggs, which are the true parasitic elements essential for the accurate identification and diagnosis of enterobiasis.
+*02_testing_dataset* - the images included in the testing dataset were meticulously cropped to dimensions of 370 × 370 pixels to ensure the preservation of critical morphological features of the parasitic eggs. The dataset comprised a total of 100 images, with 50 images allocated per class. Class 0 represented artifacts—non-parasitic structures or objects that may resemble eggs but are diagnostically irrelevant. Class 1 consisted of *E. vermicularis* eggs, which are the true parasitic elements essential for the accurate identification and diagnosis of enterobiasis.
 
 *03_obj_det_original* - microscopic images are incorporated for object detection, as they capture high-resolution details critical for identifying and segmenting cellular structures.
 
@@ -23,7 +23,7 @@ The methodology of this study can be delineated into several sequential steps, e
 **5.Usage Instructions**
 
 1. Data Acquisition and Preprocessing
-   The initial phase involves the importation of *Enterobius vermicularis* egg images, which constitute the primary dataset for analysis. Given the inherent challenges associated with medical imaging datasets—such as limited sample size and variability—robust preprocessing is essential. The raw images undergo normalization and resizing to ensure consistency across the dataset, thereby facilitating subsequent processing stages.
+   The initial phase involves the importation of *E. vermicularis* egg images, which constitute the primary dataset for analysis. Given the inherent challenges associated with medical imaging datasets—such as limited sample size and variability—robust preprocessing is essential. The raw images undergo normalization and resizing to ensure consistency across the dataset, thereby facilitating subsequent processing stages.
 
 2. Image Augmentation
    To enhance the diversity and robustness of the dataset, a comprehensive image augmentation pipeline is implemented. This process involves several techniques:
@@ -59,7 +59,7 @@ The methodology of this study can be delineated into several sequential steps, e
      - *Intersection over Union (IoU):* To evaluate the precision of object localization by comparing the overlap between the predicted and ground-truth bounding boxes.  
    These metrics facilitate a detailed quantitative analysis, allowing for an objective assessment of the efficacy of both the individual models and the cumulative transfer learning approach.
 
-In summary, the proposed method integrates data augmentation, multiple deep learning architectures, and an innovative cumulative transfer learning algorithm to advance the state of the art in the detection and classification of *Enterobius vermicularis* eggs. The method is further validated through robust performance metrics, ensuring its practical utility in both image classification and object detection tasks.
+In summary, the proposed method integrates data augmentation, multiple deep learning architectures, and an innovative cumulative transfer learning algorithm to advance the state of the art in the detection and classification of *E. vermicularis* eggs. The method is further validated through robust performance metrics, ensuring its practical utility in both image classification and object detection tasks.
 
 **6.Python Library Requirements**
 
@@ -89,7 +89,7 @@ keras.utils
 
 **7.Citation**
 
-This study used E. vermicularis egg images from the publicly available dataset, accessible through Figshare (https://doi.org/10.6084/m9.figshare.26266028.v2)  (Chaibutr N, Pongpanitanont P, Laymanivong S, Thanchomnang T, Janwan P. 2024. Development of a machine learning model for the classification of Enterobius vermicularis egg. Journal of Imaging 10(9):212 DOI 10.3390/jimaging10090212.)
+This study used *E. vermicularis* egg images from the publicly available dataset, accessible through Figshare (https://doi.org/10.6084/m9.figshare.26266028.v2)  (Chaibutr N, Pongpanitanont P, Laymanivong S, Thanchomnang T, Janwan P. 2024. Development of a machine learning model for the classification of Enterobius vermicularis egg. Journal of Imaging 10(9):212 DOI 10.3390/jimaging10090212.)
 
 **8.License**
 
