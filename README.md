@@ -63,29 +63,15 @@ In summary, the proposed method integrates data augmentation, multiple deep lear
 
 **6.Python Library Requirements**
 
-os
+cv2 4.11.0
 
-cv2
+numpy 2.0.2
 
-numpy
+matplotlib 3.10.0
 
-matplotlib.pyplot
+sklearn 1.6.1
 
-datetime
-
-sklearn.model_selection
-
-sklearn.metrics
-
-keras.models
-
-keras.layers
-
-keras.applications
-
-keras.callbacks
-
-keras.utils
+keras 3.8.0
 
 **7.Citation**
 
