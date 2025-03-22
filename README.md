@@ -89,7 +89,7 @@ keras.utils
 
 **7.Citation**
 
-The comprehensive training dataset employed in this study is publicly accessible via Figshare (https://doi.org/10.6084/m9.figshare.26266028.v2, accessed 22 August 2024).
+This study used E. vermicularis egg images from the publicly available dataset, accessible through Figshare (https://doi.org/10.6084/m9.figshare.26266028.v2)  (Chaibutr N, Pongpanitanont P, Laymanivong S, Thanchomnang T, Janwan P. 2024. Development of a machine learning model for the classification of Enterobius vermicularis egg. Journal of Imaging 10(9):212 DOI 10.3390/jimaging10090212.)
 
 **8.License**
 
