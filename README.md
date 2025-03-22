@@ -80,3 +80,11 @@ keras.applications
 keras.callbacks
 
 keras.utils
+
+**Citation**
+
+The comprehensive training dataset employed in this study is publicly accessible via Figshare (https://doi.org/10.6084/m9.figshare.26266028.v2, accessed 22 August 2024).
+
+**License**
+
+This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
