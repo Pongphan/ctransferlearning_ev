@@ -1,6 +1,6 @@
 **1.Title**
 
-Enhanced object detection of Enterobius vermicularis eggs using cumulative transfer learning algorithm
+Enhanced object detection of *Enterobius vermicularis* eggs using cumulative transfer learning algorithm
 
 **2.Project Description**
 
